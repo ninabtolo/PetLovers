@@ -26,7 +26,7 @@ export default class ListaClientesTopConsumidores extends Component<props> {
                         marginTop: "30px" 
                     }}
                 >
-                    Clientes que mais consumiram
+                    Clientes que Mais Consumiram
                 </h3>
                 <div className="list-group">
                     {clientesTop.map((cliente, index) => (
