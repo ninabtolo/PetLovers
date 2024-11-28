@@ -8,10 +8,12 @@ type Cliente = {
     id: number;
     nome: string;
     nomeSocial: string;
+    cpf: string;
     email: string;
     telefone: string;
     tipoPet: string;
     nomePet: string;
+    raca: string;
 };
 
 type State = {
@@ -29,19 +31,23 @@ export default class ListaCliente extends Component<Props, State> {
                     id: 1,
                     nome: "João Silva",
                     nomeSocial: "Joãozinho",
+                    cpf: "12345678910",
                     email: "joao.silva@email.com",
                     telefone: "(12) 91234-5678",
                     tipoPet: "Cachorro",
                     nomePet: "Rex",
+                    raca: "labrador"
                 },
                 {
                     id: 2,
                     nome: "Maria Oliveira",
                     nomeSocial: "Mari",
+                    cpf: "12345678911",
                     email: "maria.oliveira@email.com",
                     telefone: "(12) 98765-4321",
                     tipoPet: "Gato",
                     nomePet: "Mimi",
+                    raca: "siames"
                 },
             ],
             editando: false,
@@ -164,6 +170,16 @@ export default class ListaCliente extends Component<Props, State> {
                                 />
                             </div>
                             <div className="mb-3">
+                                <label>Nome Social:</label>
+                                <input
+                                    type="text"
+                                    name="cpf"
+                                    className="form-control"
+                                    value={clienteAtual.cpf}
+                                    onChange={this.handleChange}
+                                />
+                            </div>
+                            <div className="mb-3">
                                 <label>Email:</label>
                                 <input
                                     type="email"
@@ -200,6 +216,16 @@ export default class ListaCliente extends Component<Props, State> {
                                     name="nomePet"
                                     className="form-control"
                                     value={clienteAtual.nomePet}
+                                    onChange={this.handleChange}
+                                />
+                            </div>
+                            <div className="mb-3">
+                                <label>Nome Social:</label>
+                                <input
+                                    type="text"
+                                    name="raca"
+                                    className="form-control"
+                                    value={clienteAtual.raca}
                                     onChange={this.handleChange}
                                 />
                             </div>
