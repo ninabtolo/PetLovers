@@ -43,6 +43,18 @@ export default class FormularioCadastroCliente extends Component<Props> {
                             style={{ height: "50px" }}
                         />
                     </div>
+
+                    <div className="input-group mb-3" style={{ padding: "10px 0" }}>
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="CPF"
+                            aria-label="CPF"
+                            aria-describedby="basic-addon1"
+                            style={{ height: "50px" }}
+                        />
+                    </div>
+
                     <div className="input-group mb-3" style={{ padding: "10px 0" }}>
                         <span
                             className="input-group-text"
@@ -84,19 +96,36 @@ export default class FormularioCadastroCliente extends Component<Props> {
                     </div>
 
                     <div className="input-group mb-3" style={{ padding: "10px 0" }}>
-                        <select
+                        <input
+                            type="text"
                             className="form-control"
+                            placeholder="Nome do pet"
+                            aria-label="Nome do pet"
+                            aria-describedby="basic-addon1"
                             style={{ height: "50px" }}
-                        >
-                            <option value="">Selecione o tipo de pet</option>
-                            <option value="cachorro">Cachorro</option>
-                            <option value="gato">Gato</option>
-                            <option value="passaro">Pássaro</option>
-                            <option value="coelho">Coelho</option>
-                            <option value="chinchila">Chinchila</option>
-                            <option value="hamster">Hamster</option>
-                            <option value="iguana">Iguana</option>
-                        </select>
+                        />
+                    </div>
+
+                    <div className="input-group mb-3" style={{ padding: "10px 0" }}>
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Tipo de pet"
+                            aria-label="Tipo de pet"
+                            aria-describedby="basic-addon1"
+                            style={{ height: "50px" }}
+                        />
+                    </div>
+
+                    <div className="input-group mb-3" style={{ padding: "10px 0" }}>
+                        <input
+                            type="text"
+                            className="form-control"
+                            placeholder="Raça"
+                            aria-label="Raça"
+                            aria-describedby="basic-addon1"
+                            style={{ height: "50px" }}
+                        />
                     </div>
 
                     <div className="input-group mb-3" style={{ padding: "10px 0" }}>
