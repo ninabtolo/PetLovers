@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a className="nav-link text-white" href="/produtos" style={{ fontSize: '1.2rem', margin: '0 10px'}}>
+                            <a className="nav-link text-white" href="/" style={{ fontSize: '1.2rem', margin: '0 10px'}}>
                                 Produtos/serviços
                             </a>
                         </li>
