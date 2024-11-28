@@ -1,4 +1,4 @@
---cole no seu bd no MySQL
+--cole no seu MySQL
 
 CREATE DATABASE petloversdb;
 USE petloversdb;
