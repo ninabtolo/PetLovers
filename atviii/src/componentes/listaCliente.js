@@ -6,8 +6,10 @@ function ListaCliente({ tema }) {
             id: 1,
             nome: "João Silva",
             nomeSocial: "Joãozinho",
+            cpf: "12345678910",
             email: "joao.silva@email.com",
             telefone: "(11) 91234-5678",
+            nomePet: "Doom",
             tipoPet: "Cachorro",
             raca: "Labrador",
         },
@@ -15,8 +17,10 @@ function ListaCliente({ tema }) {
             id: 2,
             nome: "Maria Oliveira",
             nomeSocial: "Mari",
+            cpf: "12345678911",
             email: "maria.oliveira@email.com",
             telefone: "(11) 98765-4321",
+            nomePet: "Hulk",
             tipoPet: "Gato",
             raca: "Siamês",
         },
@@ -119,6 +123,8 @@ function ListaCliente({ tema }) {
                                 borderRadius: "10px",
                                 width: "80%",
                                 maxWidth: "400px",  
+                                maxHeight: "90vh",
+                                overflowY: "auto"
                             }}
                         >
                         <h4 className="mb-4">Editar Cliente</h4>
@@ -143,6 +149,16 @@ function ListaCliente({ tema }) {
                             />
                         </div>
                         <div className="mb-3">
+                            <label>CPF:</label>
+                            <input
+                                type="text"
+                                name="cpf"
+                                className="form-control"
+                                value={clienteAtual.cpf}
+                                onChange={handleChange}
+                            />
+                        </div>
+                        <div className="mb-3">
                             <label>Email:</label>
                             <input
                                 type="email"
@@ -159,6 +175,16 @@ function ListaCliente({ tema }) {
                                 name="telefone"
                                 className="form-control"
                                 value={clienteAtual.telefone}
+                                onChange={handleChange}
+                            />
+                        </div>
+                        <div className="mb-3">
+                            <label>Nome do pet:</label>
+                            <input
+                                type="text"
+                                name="nomePet"
+                                className="form-control"
+                                value={clienteAtual.nomePet}
                                 onChange={handleChange}
                             />
                         </div>
@@ -214,3 +240,4 @@ function ListaCliente({ tema }) {
 }
 
 export default ListaCliente;
+
