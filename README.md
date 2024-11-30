@@ -7,7 +7,7 @@ Aqui estão as instruções para rodar cada lista, passo a passo. 🚀
 ### **Lista 1**  
 É necessário compilar o código Typescript antes de rodá-lo.  
 
-1️⃣ Tem que instalar o prompt-sync primeiro, não lembro se já era assim, mas para garantir:  
+1️⃣ Tem que instalar o prompt-sync primeiro:  
 
 ```bash 
 npm install prompt-sync 
