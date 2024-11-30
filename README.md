@@ -65,7 +65,7 @@ npm start
 
 🔧 Agora você deve ver o projeto funcionando!
 
-###**Lista 5**
+### **Lista 5**
 Essa é a aplicação mais robusta, envolvendo um banco de dados e uma API.
 
 1️⃣ No banco de dados MySQL, copie e cole o conteúdo do arquivo schema.sql para criar as tabelas.
