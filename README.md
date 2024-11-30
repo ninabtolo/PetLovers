@@ -44,7 +44,7 @@ npm start
 
 🥳 Fácil e rápido!
 
-###**Lista 4**
+### **Lista 4**  
 💡 Nota importante: Não consegui incluir o arquivo .jar no repositório (devido as limitações de GitHub 😅). Você precisará baixar o arquivo manualmente clicando aqui.
 
 1️⃣ Após baixar o .jar, coloque-o na pasta atviv.
