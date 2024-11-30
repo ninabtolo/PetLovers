@@ -32,7 +32,7 @@ npm start
 ```
 
 🎉 Pronto! Agora o código está rodando!
-(Sim, eu sei que parece que ela foi a última e feita de última hora, mas ela já está pronta há meses, tinha descoberto um erro no último minuto mas arrumei)
+(Sim, eu sei que parece que ela foi a última e feita de última hora pelo horário do commit, mas ela já está pronta há meses, tinha descoberto um erro no último minuto mas arrumei)
 
 ### **Lista 2 e Lista 3**
 Aqui as coisas ficam mais simples, só o básico de Node.js.
