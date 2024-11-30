@@ -48,6 +48,7 @@ npm start
 💡 Nota importante: Não consegui incluir o arquivo .jar no repositório (devido as limitações de GitHub 😅). Você precisará baixar o arquivo manualmente clicando aqui.
 
 1️⃣ Após baixar o .jar, coloque-o na pasta atviv.
+
 2️⃣ Abra dois terminais (ou use split terminal):
 
 No primeiro terminal:
@@ -69,7 +70,9 @@ npm start
 Essa é a aplicação mais robusta, envolvendo um banco de dados e uma API.
 
 1️⃣ No banco de dados MySQL, copie e cole o conteúdo do arquivo schema.sql para criar as tabelas.
+
 2️⃣ Abra o arquivo server.js e coloque sua senha do mysql.
+
 3️⃣ Abra dois terminais (ou use split terminal):
 
 No primeiro terminal, rode o servidor:
