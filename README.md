@@ -8,17 +8,17 @@ Aqui estão as instruções para rodar cada lista, passo a passo. 🚀
 É necessário compilar o código Typescript antes de rodá-lo.  
 
 1️⃣ No terminal, rode:  
-```bash  
+```bash```  
 tsc  
 
 2️⃣ Instale as dependências do projeto:
 
-```bash
+```bash```
 npm install  
 
 3️⃣ Inicie o projeto:
 
-```bash
+```bash```
 npm start  
 
 🎉 Pronto! Agora o código está rodando!
@@ -28,12 +28,12 @@ Aqui as coisas ficam mais simples, só o básico de Node.js.
 
 1️⃣ Instale as dependências:
 
-```bash
+```bash```
 npm install  
 
 2️⃣ Inicie o projeto:
 
-bash
+```bash```
 npm start  
 
 🥳 Fácil e rápido!
@@ -45,11 +45,11 @@ npm start
 2️⃣ Abra dois terminais (ou use split terminal):
 
 No primeiro terminal:
-```bash
+```bash```
 java -jar pl.jar  
 
 No segundo terminal:
-```bash
+```bash```
 npm install  
 npm start
 
@@ -63,12 +63,13 @@ Essa é a aplicação mais robusta, envolvendo um banco de dados e uma API.
 3️⃣ Abra dois terminais (ou use split terminal):
 
 No primeiro terminal, rode o servidor:
-```bash
+```bash```
 node src/server/server.js  
 
 No segundo terminal, instale as dependências e inicie o cliente:
-```bash
+```bash```
 npm install  
 npm start  
+
 🌐 Agora é só acessar a aplicação no navegador!
 
