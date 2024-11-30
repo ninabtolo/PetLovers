@@ -8,8 +8,9 @@ Aqui estão as instruções para rodar cada lista, passo a passo. 🚀
 É necessário compilar o código Typescript antes de rodá-lo.  
 
 1️⃣ No terminal, rode:  
-```bash```  
+```bash 
 tsc  
+``` 
 
 2️⃣ Instale as dependências do projeto:
 
